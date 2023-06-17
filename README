@@ -1,0 +1,10 @@
+This project is a parallel ISL (Iterative Stencil Loops), that can solve a 13-points stencil.
+The example coefficients is intended to mimic the heat spread, given an initial heat map.
+The parallel executions are being done using MPI.
+
+For compiling only, run `make`.
+For reading the manual, run `make help`.
+For generating an example, run `make example`.
+For cleaning (except for output directories), run `make clean`.
+
+Written by Maor Mizrachi
